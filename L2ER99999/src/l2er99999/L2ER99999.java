@@ -41,6 +41,10 @@ public class L2ER99999 {
             
             nroEx = p.nextInt();
             
+            if ((nroEx < 0) || (nroEx > 13)) {
+                System.out.println("Digite um número válido.");
+            }
+            
             switch (nroEx) {
                 
                 case 0:
@@ -164,12 +168,9 @@ public class L2ER99999 {
             
             System.out.println("Deseja Continuar?\n1. Sim.\n2. Não.");
             continuar = p.nextInt();
-            
+
         } while (continuar == 1);
-        
-        if ((nroEx < 0) || (nroEx > 13)) {
-            System.out.println("Digite um número válido.");
-        }
+
     }
     
 }
