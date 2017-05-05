@@ -41,7 +41,7 @@ public class L2ER99999 {
             
             nroEx = p.nextInt();
             
-            if ((nroEx < 0) || (nroEx > 13)) {
+            if ((nroEx < 0) || (nroEx > 4)) {
                 System.out.println("Digite um número válido.");
             }
             

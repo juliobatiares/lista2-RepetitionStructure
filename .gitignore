@@ -67,3 +67,5 @@ $RECYCLE.BIN/
 *.properties
 *.mf
 
+/L2ER00500/nbproject/private/
+/L2ER00500/build/
