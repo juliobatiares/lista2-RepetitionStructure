@@ -25,11 +25,11 @@ public class L2ER00500 {
         Scanner input = new Scanner(System.in);
         Random rd = new Random();
         
-        int cont, n1, tent;
+        int cont, n1, tent, falta;
         
         n1 = rd.nextInt((100 - 1) + 1) + 1;
         
-        System.out.println("Jogo das TENTATIVAS!\nTente adivinhar um número de 1 à 100.");
+        System.out.println("> 5. Jogo das TENTATIVAS!\nTente adivinhar um número de 1 à 100.");
         
         for (cont = 1; cont <= 10; cont++) {
             System.out.println("Digite a " + cont + "ª tentativa: ");
@@ -41,9 +41,10 @@ public class L2ER00500 {
                 if (tent == n1) {
                    System.out.println("Parabéns, você acertou!!!");
                    System.out.println("O número é " + n1);
-                   break;
+                   break; //Questionar o Professor sobre a utilização do BREAK.
                 } else {
-                    System.out.println("Uhhh, quase! Tente outra vez!");
+                    falta = 10 - cont;
+                    System.out.println("Uhhh, quase! Tente outra vez!\nVocê ainda tem " + falta + " tentativas.");
                   }
               }
                 
