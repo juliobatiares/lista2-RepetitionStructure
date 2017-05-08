@@ -34,9 +34,9 @@ public class L2ER00500 {
         for (cont = 1; cont <= 10; cont++) {
             System.out.println("Digite a " + cont + "ª tentativa: ");
             tent = input.nextInt();
-            
+        //Como proceder se quiser que ele não contabilize quando digitar um valor válido?    
             if ((tent < 1) || (tent > 100)) {
-                System.out.println("Digite um valor válido.");
+                System.out.println("Não é um valor válido.");
             } else {
                 if (tent == n1) {
                    System.out.println("Parabéns, você acertou!!!");
