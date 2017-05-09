@@ -66,8 +66,12 @@ $RECYCLE.BIN/
 *.xml
 *.properties
 *.mf
+*.netbeans_automatic_build
+*.netbeans_update_resources
 
 /L2ER00500/nbproject/private/
 /L2ER00500/build/
 /L2ER00600/nbproject/private/
 /L2ER00600/build/
+/L2ER00700/nbproject/private/
+/L2ER00700/build/
