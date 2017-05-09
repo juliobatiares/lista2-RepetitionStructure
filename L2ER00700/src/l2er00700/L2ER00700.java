@@ -34,7 +34,8 @@ public class L2ER00700 {
         System.out.println("Informe um número Inteiro: ");
         n1 = input.nextInt();
         
-        for (nm = 1; nm <= n1; nm++) {
+        System.out.println("Divisor: 1");
+        for (nm = 2; nm < n1 / 2; nm++) {
             
             resto = n1 % nm;
             
@@ -43,6 +44,7 @@ public class L2ER00700 {
             }
             
         }
+        System.out.println("Divisor: " + n1);
     }
     
 }
