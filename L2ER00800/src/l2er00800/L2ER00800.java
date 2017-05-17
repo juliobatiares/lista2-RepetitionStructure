@@ -36,7 +36,8 @@ public class L2ER00800 {
         
         Scanner input = new Scanner(System.in);
         
-        int nr, nmr,fatorial = 1;
+        int nr, nmr;
+        float fatorial = 1;
         
         System.out.println("..:: FATORIAL ::..");
         System.out.println("Digite um Número Inteiro: ");
