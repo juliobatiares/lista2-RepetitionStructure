@@ -28,7 +28,7 @@ public class L2ER00600 {
             System.out.println();
             if (n1 > 0) {
             
-                for (n = 1; n <= n1; n++) {
+                for (n = n1; n <= n1; n++) {
             
                     par = n % 2;
             
